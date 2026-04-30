@@ -10,7 +10,7 @@
   <title>What I Can Do | Wild Kahuna</title>
   <meta
     name="description"
-    content="Websites, workflow automation, process improvements, and static deployment support for small businesses."
+    content="Custom websites, process automation, APIs, databases, and practical systems that remove repeated work."
   />
 </svelte:head>
 
@@ -18,8 +18,8 @@
 <main class="showcase-page">
   <PageHero
     eyebrow="What I Can Do"
-    title="I build the website, then look for the workflow hiding behind it."
-    intro="A good project should make the business easier to run. I care about the software, the handoff, the update process, and whether the solution fits the way people already work."
+    title="I build useful websites and the systems behind them."
+    intro="The website is often the visible part. The bigger win is usually the workflow behind it: cleaner data, fewer repeated steps, better handoffs, and software that helps the business run."
   />
 
   <section class="capability-grid" aria-label="Capabilities">
@@ -34,16 +34,16 @@
   <section class="story-panel">
     <div>
       <p class="eyebrow">Workflow example</p>
-      <h2>Turning a spreadsheet into a publishing system.</h2>
+      <h2>Turning everyday tracking into a working system.</h2>
       <p>
-        My aunt was managing events through a generic site builder where each event had to be entered
-        manually. She was already using spreadsheets to track towns, businesses, and events, so I kept
-        that natural workflow and built around it.
+        A client may already have the important information in a spreadsheet, inbox, form, or shared
+        document. Instead of forcing a brand-new process, I look for the parts that already work and
+        build software around them.
       </p>
       <p>
-        GitHub Actions now pulls the Google Sheet, generates a JSON file, commits the update to the
-        project, and deploys the site. She keeps using a familiar spreadsheet, and the website stays
-        current without duplicate entry.
+        That can mean a website, an admin screen, a small database, an API, or an automated update
+        path. The point is to remove duplicate entry, reduce mistakes, and make the work easier to
+        keep current.
       </p>
     </div>
     <ol class="process-list">
@@ -55,10 +55,10 @@
 
   <section class="closing-cta">
     <p class="eyebrow">How I work</p>
-    <h2>Dedicated, direct, and focused on the best practical solution.</h2>
+    <h2>Practical software that earns its place in the business.</h2>
     <p>
-      I will work hard to understand the real problem, communicate clearly, and deliver software that
-      earns its place in the business.
+      I start with the real headache, then build the smallest useful system that can grow with the
+      work instead of becoming another thing to manage.
     </p>
     <a class="button button--primary" href={`${base}/contact/`}>Talk Through A Project</a>
   </section>

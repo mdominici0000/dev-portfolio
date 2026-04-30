@@ -28,30 +28,30 @@ export const siteLinks = [
 
 export const capabilities = [
   {
-    title: 'Websites That Feel Legit',
+    title: 'Custom Websites That Can Grow',
     description:
-      'Fast, clean websites for small businesses, self-employed operators, and teams that need credibility without a bloated platform.'
+      'Clean public websites, private tools, client portals, forms, and content flows that can grow past a simple brochure page when the business needs more.'
   },
   {
-    title: 'Workflow Automation',
+    title: 'Process Automation',
     description:
-      'I look for repetitive work, fragile handoffs, and places where a simple tool can save hours without forcing people to change how they work.'
+      'I look for repeated entry, fragile handoffs, missed follow-ups, and manual checks that can be turned into dependable systems people actually use.'
   },
   {
-    title: 'Practical Process Design',
+    title: 'Data, APIs, And Databases',
     description:
-      'The best solution is often not the fanciest one. It is the one that fits the business, survives daily use, and keeps moving when things get busy.'
+      'When a project needs more than pages, I can build the data model, API, admin workflow, and hosted foundation that keeps the operation moving.'
   },
   {
-    title: 'Deployment And Maintenance',
+    title: 'Ongoing Improvement',
     description:
-      'Static builds, GitHub Actions, content pipelines, and focused cleanup so the finished system is easy to update and hard to break.'
+      'The goal is not just launch day. I care about handoff, maintenance, visibility, and making the system easier to operate over time.'
   }
 ];
 
 export const automationSteps = [
-  'Keep the familiar spreadsheet as the source of truth.',
-  'Pull the data automatically during deployment.',
-  'Generate clean JSON for the website.',
-  'Commit and deploy without manual event re-entry.'
+  'Keep the familiar spreadsheet as the working surface.',
+  'Move the updates into a dependable automated flow.',
+  'Prepare clean data for the website and future tools.',
+  'Publish changes without duplicate manual entry.'
 ];

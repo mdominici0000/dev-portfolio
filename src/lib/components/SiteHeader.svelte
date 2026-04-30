@@ -10,11 +10,7 @@
 
 <header class="site-header">
   <a class="brand-lockup" href={`${base}/`} aria-label="Wild Kahuna home">
-    <span class="brand-mark">WK</span>
-    <span>
-      Wild Kahuna
-      <small>Mitch Dominici</small>
-    </span>
+    <img class="brand-logo" src={`${base}/text-logo-transparent.png`} alt="Wild Kahuna" />
   </a>
   <nav aria-label="Primary navigation">
     {#each links as link}
