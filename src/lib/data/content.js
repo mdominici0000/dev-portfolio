@@ -5,24 +5,37 @@ export const contact = {
   phoneHref: 'tel:+15033547309'
 };
 
-export const siteLinks = [
+export const businessExamples = [
   {
-    title: 'Fenrir / ST Engine',
-    type: 'Advanced engineering system',
-    href: 'https://fenrirengine.com/',
-    variant: 'fenrir',
+    name: 'Fenrir Showcase',
+    url: 'http://www.fenrirengine.com/',
     description:
-      'A technical showcase for a data-heavy trading system with market-data workflows, strategy tooling, backtesting, and a focused operator interface.',
-    points: ['Trading engine architecture', 'Backtest and data workflows', 'Operator UI and runtime visibility']
+      'A technical showcase for a production trading infrastructure built end-to-end by one engineer.',
+    image: '/site-examples/fenrir-showcase/home.png',
+    note_list: ['Trading workflow breakdown', 'Architecture review', 'Process orchestration']
   },
   {
-    title: 'Missouri River Valley Loop',
-    type: 'Client-facing small business site',
-    href: 'https://morivervalleyloop.com/',
-    variant: 'river',
+    name: 'Mo River Valley LOOP',
+    url: 'https://morivervalleyloop.com/',
     description:
-      'A real public site for a small-business initiative, built around clean information structure and a workflow that fits how the client already manages data.',
-    points: ['Static site delivery', 'Spreadsheet-backed content workflow', 'Local business credibility']
+      'A site for a local tourism initiative. Designed to be fun and engaging with a workflow that fits how the client already manages data.',
+    image: '/site-examples/morivervalleyloop/morivervalleyloop-home.png',
+    note_list: ['Public site delivery', 'Spreadsheet-backed content workflow', 'Custom site design']
+  }
+];
+
+export const softwareExamples = [
+  {
+    name: 'Spreadsheet To Publishing Workflow',
+    description:
+      'A familiar spreadsheet stays the working surface, while the website updates from clean structured data without duplicate manual entry.',
+    note_list: ['Less copy-paste work', 'Cleaner content updates', 'A process the client can keep using']
+  },
+  {
+    name: 'Custom Data And Operations Tools',
+    description:
+      'When a business outgrows a simple page, I can build the database, API, admin workflow, and lightweight hosting foundation behind it.',
+    note_list: ['Private business tools', 'Database-backed workflows', 'Room to grow beyond the first version']
   }
 ];
 
